@@ -42,10 +42,10 @@ function view_lung(canvas_name, file_name) {
 
 function init() {
 
-  view_lung("#canvas1", "sdy02_1.obj");
-  view_lung("#canvas2", "sdy13_1.obj");
-  view_lung("#canvas3", "sdy02_1.obj");
-  view_lung("#canvas4", "sdy02_1.obj");
+  view_lung("#canvas1", "https://drive.google.com/file/d/1KwdN9ZPn2LApXvRTuV4MxSmX8EEBW9ls/view?usp=sharing");
+  view_lung("#canvas2", "https://drive.google.com/file/d/1-MQK9ucRlJoNJkp41748IKAKURstZp-u/view?usp=sharing");
+  view_lung("#canvas3", "https://drive.google.com/file/d/1K23Ct158YuSqkKhxLqaDKL53O2VH2-SG/view?usp=sharing");
+  view_lung("#canvas4", "https://drive.google.com/file/d/1djFb65ucQw7DpuJkW274h7x0qkykGZyI/view?usp=sharing");
 
 }
 
