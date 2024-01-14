@@ -1,0 +1,14 @@
+div#lung_canvas {
+  justify-content: center;
+  padding: 2%;
+}
+
+div#lung_block {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+p#caption {
+  text-align: center;
+}
