@@ -15,7 +15,7 @@ function view_lung(canvas_name, file_name) {
   const scene = new THREE.Scene();
 
   const camera = new THREE.PerspectiveCamera(45, width / height, 1, 10000);
-  camera.position.set(350, -500, -500);
+  camera.position.set(0, -600, -400);
 
   const controls = new THREE.OrbitControls(camera, canvasElement);
   controls.enableDamping = true;
@@ -43,9 +43,9 @@ function view_lung(canvas_name, file_name) {
     file_name,
     function (obj) {
       scene.add(obj);
-      obj.position.x = -200;
-      obj.position.y = -400;
-      obj.position.z = -200;
+      obj.position.x = -250;
+      obj.position.y = -300;
+      obj.position.z = -100;
     },
   );
 
