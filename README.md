@@ -16,14 +16,19 @@
 - npm
 
 
-まずnpmでhttp-serverをインストールします。次にこのリポジトリをcloneします。最後にhttp-serverをこのリポジトリのフォルダで起動します。その後、メッセージに従って該当するURLにブラウザでアクセスしてください。
+まずnpmでhttp-serverをインストールします。
+
+次にこのリポジトリをcloneします。
+ただし、objファイルのファイル容量が大きすぎるためデフォルトではhash値が書かれたファイルしか生成されません。そこで、次のリンクのGoogleドライブからファイルをダウンロードして置き換えてください：<https://drive.google.com/drive/folders/10rkCqwq9MZsZZQNpuKy0DyPRtPv5fOV6>
+
+最後にhttp-serverをこのリポジトリのフォルダで起動します。その後、メッセージに従って該当するURLにブラウザでアクセスしてください。
 
 
 ```sh
-npm install -g http-server
+sudo npm install -g http-server
 git clone https://github.com/puripuri2100/vlung.git
 cd vlung
-http-server
+http-server --cors
 ```
 
 ## ライセンス
