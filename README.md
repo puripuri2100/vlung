@@ -8,6 +8,10 @@
   <img src="img.png">
 </div>
 
+## 公開
+
+<https://puripuri2100.site/vlung/>で動作しているところを確認できます。
+
 ## 起動方法
 
 必要なソフトウェア
